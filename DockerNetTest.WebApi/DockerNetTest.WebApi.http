@@ -1,0 +1,6 @@
+@DockerNetTest.WebApi_HostAddress = http://localhost:5124
+
+GET {{DockerNetTest.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
